@@ -14,7 +14,7 @@ https://steamusercontent-a.akamaihd.net/ugc/2429005285070992894/65B32CF6DE5AC0F0
 
 I was tasked with doing the even number scene.
 
-##Lava
+## Lava
 
 I started off with the lava scrolling texture.
 
@@ -36,12 +36,13 @@ The rest was fairly easy, as all I had to do was to put the scrolling text shade
 
 As the final step, I created the "LavaSwitch" script, which switches the speed of the lava scrolling texture.
 The toggle for this one if the "P" key (press the key twice for the effect to show up the first time, not sure why this happens but I tried fixing it by switching the bool's parity, didn't work).
+The code is a simple if statement that changes the speed based on what the bool is set to after pressing "P".
 
 ![image](https://user-images.githubusercontent.com/116387786/233706491-4c25612f-90d6-4e42-ab87-33a769a9f46b.png)
 
 
 
-##Bump
+## Bump
 
 ![image](https://user-images.githubusercontent.com/116387786/233705648-28f49c8f-65c9-4d0b-a750-4b238105a67b.png)
 
@@ -49,3 +50,5 @@ This one was also fairly simple, as the main change I did to the Bump shader cod
 I decided to do this and not something else because the lava/fire acts like a light source, meaning that the background would naturally have a red tint to it (this can be modified via the inspector.
 
 ![image](https://user-images.githubusercontent.com/116387786/233705910-5f430635-4979-405c-8058-75b889797525.png)
+
+
