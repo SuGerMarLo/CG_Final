@@ -15,9 +15,11 @@ https://steamusercontent-a.akamaihd.net/ugc/2429005285070992894/65B32CF6DE5AC0F0
 I was tasked with doing the even number scene.
 
 I started off with the lava scrolling texture.
+
 ![image](https://user-images.githubusercontent.com/116387786/233704530-064287a4-f2f8-4b44-90fc-4602f62a88fd.png)
 
 The shader I took from the lecture was the basic scrolling texture shader, I then decided to combine it with the water shader to make it look like real lava/fire as well as to give it some depth.
+
 ![image](https://user-images.githubusercontent.com/116387786/233704851-b2553f4c-a836-4d33-a0b0-7a337d4fafdc.png)
 
 The top properties are for the scrolling texture while the bottom ones are for the water shader.
