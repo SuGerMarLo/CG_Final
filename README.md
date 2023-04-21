@@ -1,5 +1,11 @@
 # CG_Final
  
+## Build
+
+Here is the final build on a goodle drive.
+
+https://drive.google.com/file/d/1CQjtWZ_uBCFLPGGLqWVz0-MpIc16VBDR/view?usp=share_link
+ 
 These are the textures I used online and their sources.
 
 https://orig00.deviantart.net/a7c0/f/2015/013/d/c/lava_texture_by_beijing54-d8dqux9.jpg
