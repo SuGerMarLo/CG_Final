@@ -51,4 +51,8 @@ I decided to do this and not something else because the lava/fire acts like a li
 
 ![image](https://user-images.githubusercontent.com/116387786/233705910-5f430635-4979-405c-8058-75b889797525.png)
 
+All that was needed to do this was the color property, instantiating it in the subshader, and setting it's albedo value to the color.
+
+![image](https://user-images.githubusercontent.com/116387786/233706871-661fe935-195e-4318-b5e8-739c3e6b595b.png)
+![image](https://user-images.githubusercontent.com/116387786/233707065-927e4df6-301c-4b5a-8f4a-f247a8e5ae36.png)
 
