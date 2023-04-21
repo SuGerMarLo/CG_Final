@@ -83,6 +83,15 @@ The toggle for this one is the "O" key.
 
 ![image](https://user-images.githubusercontent.com/116387786/233708779-2cabd761-f652-46ba-9f3b-5a3673aec801.png)
 
+With Bloom:
+
+![image](https://user-images.githubusercontent.com/116387786/233712189-c338c210-f766-4dd6-882a-f1190f3b267f.png)
+
+Without Bloom:
+
+![image](https://user-images.githubusercontent.com/116387786/233712224-5cc18979-95c8-4a9b-a768-4dc88e668642.png)
+
+
 ## Extra
 
 These are where the extra stuff are explained.
