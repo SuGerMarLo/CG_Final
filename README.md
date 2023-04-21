@@ -72,3 +72,19 @@ Then, in an update function, I made it so that the threshold value would change 
 ![image](https://user-images.githubusercontent.com/116387786/233707785-f50f6aba-5cfd-4d4b-abe8-ecbb979b3fa8.png)
 ![image](https://user-images.githubusercontent.com/116387786/233708416-5d37dcea-8cf9-4626-b2c9-10fe1cf4d0ff.png)
 
+Finally, I created the simple "BloomManager" script and also put it on the camera, all this does is that it allows toggling by activating and deactivating the script.
+The toggle for this one is the "O" key.
+
+![image](https://user-images.githubusercontent.com/116387786/233708779-2cabd761-f652-46ba-9f3b-5a3673aec801.png)
+
+## Extra
+
+These are where the extra stuff are explained.
+
+1. The movement was done using a simple WASD movement script that clamps the player's position to not touch the lava.
+
+![image](https://user-images.githubusercontent.com/116387786/233709246-8dd028ba-3537-4e62-a97d-871503722df7.png)
+
+2. The light moving was done by creating an empty, making the directional light a child of that empty (with a slight positional offset), then a simple rotation script rotating the empty object.
+
+![image](https://user-images.githubusercontent.com/116387786/233709298-ab45d52a-4ea6-47c0-8d0c-983cfeae6e89.png)
