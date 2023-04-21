@@ -56,3 +56,19 @@ All that was needed to do this was the color property, instantiating it in the s
 ![image](https://user-images.githubusercontent.com/116387786/233706871-661fe935-195e-4318-b5e8-739c3e6b595b.png)
 ![image](https://user-images.githubusercontent.com/116387786/233707065-927e4df6-301c-4b5a-8f4a-f247a8e5ae36.png)
 
+
+
+## Bloom
+
+This one was an interesting one to make.
+
+Essentially what I did was take the bloom shader and C# scripts from the lecture and proceed as normal.
+However, I added a bit to the C# script that would use an animation curve to make the "threshold" variable of the bloom effect to pulsate over time, giving it a sort of 'low health' urgency feeling. Of course this was a bit exaggerated to make the effect visible.
+
+I created a bunch of variables in the Bloon C# script that include a max and min value, time, a bool (which isn't needed, I just forgot to remove it), and an animation curve.
+Then, in an update function, I made it so that the threshold value would change according to the time value, which is following a ping pong animatio curve.
+
+![image](https://user-images.githubusercontent.com/116387786/233707746-e2246a87-37cb-4982-ba53-19dc309cf17a.png)
+![image](https://user-images.githubusercontent.com/116387786/233707785-f50f6aba-5cfd-4d4b-abe8-ecbb979b3fa8.png)
+![image](https://user-images.githubusercontent.com/116387786/233708416-5d37dcea-8cf9-4626-b2c9-10fe1cf4d0ff.png)
+
